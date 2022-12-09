@@ -93,27 +93,4 @@ HotelController.getByName = async (req, res) => {
   res.json(data);
 };
 
-// GET HOTELS BY PRICE
-HotelController.getByPrice = async (req, res) => {
-  const price = req.params.price;
-  const data = await Hotels.price({
-    where: {
-      price: { [Op.like]: price },
-    },
-    include: [
-      {
-        model: Reservations,
-        as: "Reservations",
-        include: [
-          {
-            model: Clients,
-            as: "client",
-          },
-        ],
-      },
-    ],
-  });
-  res.json(data);
-};
-
 module.exports = HotelController;

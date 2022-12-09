@@ -12,7 +12,4 @@ router.get("/:id", HotelController.findByPk);
 // GET HOTELS BY NAME
 router.get("/name/:name", HotelController.getByName);
 
-// GET HOTELS BY PRICE
-router.get("/price/:price");
-
 module.exports = router;

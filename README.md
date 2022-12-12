@@ -66,24 +66,24 @@ Following endpoints to find all the data
 ## GET Users
 
 - `/users` - clients listing
-- `/users/:id` - search clients by id
-- `/users/name/:name` - search clients by name
-- `/users/dni/:dni` - search clients by dni
-- `/users/email/:email` - search clients by email
-- `/users/phone/:phone` - search clients by phone number
+- `/users/{id}` - search clients by id
+- `/users/name/{name}` - search clients by name
+- `/users/dni/{dni}` - search clients by dni
+- `/users/mail/{mail}` - search clients by email
+- `/users/phone/{phone}` - search clients by phone number
 
 ## GET Reservation
 
 - `/reservation` - reservation listing
-- `/reservaton/:id` - search reservations by id
-- `/reservation/checkin/:checkin` - search reservations by checkin
-- `/reservation/checkout/:checkout` - search reservations by checkout
+- `/reservaton/{id}` - search reservations by id
+- `/reservation/checkin/{checkin}` - search reservations by checkin
+- `/reservation/checkout/{checkout}` - search reservations by checkout
 
 ## GET Hotels
 
 - `/hotel` - get hotels listing
-- `/hotel/:id` - get hotels by id
-- `/hotel/name/:name` - get hotels by name
+- `/hotel/{id}` - get hotels by id
+- `/hotel/name/{name}` - get hotels by name
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 

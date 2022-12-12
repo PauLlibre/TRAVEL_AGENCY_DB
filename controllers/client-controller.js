@@ -144,7 +144,7 @@ ClientController.getByMail = async (req, res) => {
   const email = req.params.email;
   const data = await Clients.findAll({
     where: {
-      mail: { [Op.like]: `%${email}%` },
+      email: { [Op.like]: `%${email}%` },
     },
     include: [
       {

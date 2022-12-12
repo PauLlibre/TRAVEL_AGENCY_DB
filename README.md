@@ -25,13 +25,28 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+Travel agency database and API where you can store the data of the clients, the different hotels you manage and the reservations.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+To use this project you have two ways to use it:
 
-### Prerequisites
+Local:
+
+- GIT PULL this project.
+- Open it on any text editor of your choice, I recommend visual studio code.
+- Make a npm install to install all the node dependencies.
+- Create an image of mysql using docker
+- Run the server
+- Import the `Hotels.sql` database to mySQLworkbench to generate the database.
+- Run the command `npm run dev` to launch the server
+- Open Postman or any other api interface to search the commands, with the url http://localhost:3000
+
+Online:
+
+- Use the url on your api interface: https://travelagencydb-production-7355.up.railway.app/
+
+### Endpoints
 
 What things you need to install the software and how to install them.
 

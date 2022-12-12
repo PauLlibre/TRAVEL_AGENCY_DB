@@ -28,6 +28,10 @@ Travel agency database and API where you can store the data of the clients, the 
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
+### Prerequisites
+
+You should have Node installed in your computer
+
 To use this project you have two ways to use it:
 
 Local:

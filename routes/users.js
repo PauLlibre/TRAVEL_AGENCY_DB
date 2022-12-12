@@ -19,6 +19,6 @@ router.get("/dni/:dni", ClientController.getByDni);
 router.get("/phone/:phone", ClientController.getByPhone);
 
 // GET users by mail
-router.get("/mail/:mail", ClientController.getByMail);
+router.get("/mail/:email", ClientController.getByMail);
 
 module.exports = router;

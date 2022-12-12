@@ -91,6 +91,7 @@ Following endpoints to find all the data
 - [Express](https://expressjs.com/) - Server Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
 - [Sequelize](https://sequelize.org) - Server formatting
+- [mySQL](https://mysql.org) - Database Framework
 
 ## ✍️ Authors <a name = "authors"></a>
 

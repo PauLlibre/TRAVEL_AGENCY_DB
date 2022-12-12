@@ -34,11 +34,25 @@ Local:
 
 - GIT PULL this project.
 - Open it on any text editor of your choice, I recommend visual studio code.
-- Make a npm install to install all the node dependencies.
+- Run the command
+
+```
+npm install
+```
+
+to install all the node dependencies.
+
 - Create an image of mysql using docker
 - Run the server
 - Import the `Hotels.sql` database to mySQLworkbench to generate the database.
-- Run the command `npm run dev` to launch the server
+- Run the command
+
+```
+npm run dev
+```
+
+to launch the server
+
 - Open Postman or any other api interface to search the commands, with the url http://localhost:3000
 
 Online:

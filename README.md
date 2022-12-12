@@ -91,11 +91,11 @@ Following endpoints to find all the data
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [Javascript](https://www.mongodb.com/) - functionality
-- [Express](https://expressjs.com/) - Server Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
-- [Sequelize](https://sequelize.org) - Server formatting
-- [mySQL](https://mysql.org) - Database Framework
+- [Javascript](https://www.mongodb.com/) - Core language
+- [Express](https://expressjs.com/) - Server Module
+- [NodeJs](https://nodejs.org/en/) - Javascript runtime enviroment
+- [Sequelize](https://sequelize.org) - ORM
+- [mySQL](https://mysql.org) - Database
 
 ## ✍️ Authors <a name = "authors"></a>
 

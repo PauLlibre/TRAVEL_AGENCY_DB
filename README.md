@@ -17,15 +17,14 @@
 - [Getting Started](#getting_started)
 - [Deployment](#deployment)
 - [Usage](#usage)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
 
 Travel agency database and API where you can store the data of the clients, the different hotels you manage and the reservations.
+
+## DATABASE STRUCTURE
+
+<img src="./imgs/Diagrama.png">
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -48,73 +47,36 @@ Online:
 
 ### Endpoints
 
-What things you need to install the software and how to install them.
+Following endpoints to find all the data
 
-```
-Give examples
-```
+## Users
 
-### Installing
+- `/users` - clients listing
+- `/users/:id` - search clients by id
+- `/users/name/:name` - search clients by name
+- `/users/dni/:dni` - search clients by dni
+- `/users/email/:email` - search clients by email
+- `/users/phone/:phone` - search clients by phone number
 
-A step by step series of examples that tell you how to get a development env running.
+## Reservation
 
-Say what the step will be
+- `/reservation` - reservation listing
+- `/reservaton/:id` - search reservations by id
+- `/reservation/checkin/:checkin` - search reservations by checkin
+- `/reservation/checkout/:checkout` - search reservations by checkout
 
-```
-Give the example
-```
+## Hotels
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## 🔧 Running the tests <a name = "tests"></a>
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## 🎈 Usage <a name="usage"></a>
-
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-
-Add additional notes about how to deploy this on a live system.
+- `/hotel` - get hotels listing
+- `/hotel/:id` - get hotels by id
+- `/hotel/name/:name` - get hotels by name
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
+- [Javascript](https://www.mongodb.com/) - functionality
 - [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+- [@shuii18](https://github.com/shuii18) - Idea & Initial work

@@ -63,7 +63,7 @@ Online:
 
 Following endpoints to find all the data
 
-## Users
+## GET Users
 
 - `/users` - clients listing
 - `/users/:id` - search clients by id
@@ -72,14 +72,14 @@ Following endpoints to find all the data
 - `/users/email/:email` - search clients by email
 - `/users/phone/:phone` - search clients by phone number
 
-## Reservation
+## GET Reservation
 
 - `/reservation` - reservation listing
 - `/reservaton/:id` - search reservations by id
 - `/reservation/checkin/:checkin` - search reservations by checkin
 - `/reservation/checkout/:checkout` - search reservations by checkout
 
-## Hotels
+## GET Hotels
 
 - `/hotel` - get hotels listing
 - `/hotel/:id` - get hotels by id

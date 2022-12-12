@@ -36,7 +36,7 @@ To use this project you have two ways to use it:
 
 Local:
 
-- GIT PULL this project.
+- GIT CLONE this project.
 - Open it on any text editor of your choice, I recommend visual studio code.
 - Run the command
 
@@ -92,7 +92,7 @@ Following endpoints to find all the data
 ## ⛏️ Built Using <a name = "built_using"></a>
 
 - [Javascript](https://www.mongodb.com/) - Core language
-- [Express](https://expressjs.com/) - Server Module
+- [Express](https://expressjs.com/) - NodeJs Server Module
 - [NodeJs](https://nodejs.org/en/) - Javascript runtime enviroment
 - [Sequelize](https://sequelize.org) - ORM
 - [mySQL](https://mysql.org) - Database

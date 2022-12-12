@@ -90,6 +90,7 @@ Following endpoints to find all the data
 - [Javascript](https://www.mongodb.com/) - functionality
 - [Express](https://expressjs.com/) - Server Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Sequelize](https://sequelize.org) - Server formatting
 
 ## ✍️ Authors <a name = "authors"></a>
 

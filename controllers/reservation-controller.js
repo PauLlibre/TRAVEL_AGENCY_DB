@@ -84,7 +84,13 @@ ReservationController.getByCheckIn = async (req, res) => {
       },
     ],
   });
-  res.json(data);
+  if (data.length > 0) {
+    res.json(data);
+  } else {
+    throw {
+      message: "There's nothing here",
+    };
+  }
 };
 
 // GET RESERVATIONS BY CHECKOUT
@@ -105,7 +111,13 @@ ReservationController.getByCheckOut = async (req, res) => {
       },
     ],
   });
-  res.json(data);
+  if (data.length > 0) {
+    res.json(data);
+  } else {
+    throw {
+      message: "There's nothing here",
+    };
+  }
 };
 
 module.exports = ReservationController;

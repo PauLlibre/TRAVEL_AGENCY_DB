@@ -88,7 +88,13 @@ ClientController.getByName = async (req, res) => {
       },
     ],
   });
-  res.json(data);
+  if (data.length > 0) {
+    res.json(data);
+  } else {
+    throw {
+      message: "There's nothing here",
+    };
+  }
 };
 
 //Find client by DNI
@@ -112,7 +118,13 @@ ClientController.getByDni = async (req, res) => {
     ],
   });
 
-  res.json(data);
+  if (data.length > 0) {
+    res.json(data);
+  } else {
+    throw {
+      message: "There's nothing here",
+    };
+  }
 };
 
 //Find client by phone
@@ -136,7 +148,13 @@ ClientController.getByPhone = async (req, res) => {
     ],
   });
 
-  res.json(data);
+  if (data.length > 0) {
+    res.json(data);
+  } else {
+    throw {
+      message: "There's nothing here",
+    };
+  }
 };
 
 //Find client by email
@@ -160,7 +178,13 @@ ClientController.getByMail = async (req, res) => {
     ],
   });
 
-  res.json(data);
+  if (data.length > 0) {
+    res.json(data);
+  } else {
+    throw {
+      message: "There's nothing here",
+    };
+  }
 };
 
 module.exports = ClientController;
